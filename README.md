@@ -1,2 +1,13 @@
-# task-1.b-Create-a-python-program-to-enter-two-numbers-and-then-performs-and-displays-the-results-
-Get the the input from the user and store it in a,b&amp;c.
+# Initializing the value of a, b, and c
+a = int(input("Enter the First number: "))
+b = int(input("Enter the Second number: "))
+c = int(input("Enter the Third number: "))
+
+# Using relational operators
+print(a, ">", b, "is", a > b)
+print(a, "<", b, "is", a < b)
+print(c, "==", a, "is", c == a)
+print(c, "!=", b, "is", c != b)
+print(a, ">=", b, "is", a >= b)
+print(b, "<=", a, "is", b <= a)
+
